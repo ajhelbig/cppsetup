@@ -1,0 +1,9 @@
+#include <iostream>
+
+int main(int argc, char* argv[])
+{	
+
+	std::cout << "Main has been set up." << std::endl;
+	
+	return 0;
+}
