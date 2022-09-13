@@ -1,0 +1,15 @@
+#!/usr/bin/bash
+
+clear
+
+echo "----------MAKE----------"
+
+make
+
+echo "----------MAKE----------"
+
+echo "----------OUTPUT----------"
+
+./run
+
+echo "----------OUTPUT----------"
