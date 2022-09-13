@@ -1,7 +1,7 @@
 # Cppsetup
 A bash script to easily setup raylib projects.
 Note: I use () to denote a command. Don't include the
-() when typing the command.
+() when typing commands.
 
 #Setting it up
 To make the shell script useable in any directory,
