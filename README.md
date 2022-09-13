@@ -1,9 +1,12 @@
 # Cppsetup
 A bash script to easily setup raylib projects.
+
 Note: I use () to denote a command. Don't include the
 () when typing commands.
+Note: raylib will be compiled with opengl 2.1 and in Debug
+mode. This can be changed in the provided templates.
 
-#Setting it up
+# Setting it up
 To make the shell script useable in any directory,
 making it a command/alias, you must add one line 
 to your .bashrc file and another to your .bash_aliases 
