@@ -21,7 +21,7 @@ Note that your /path will depend on where you want to store
 the script. I created a directory in root called bin and
 placed the script there.
 
-#Editing the .bash_aliases
+# Editing the .bash_aliases
 Here we are defining the name of the command.
 
 Open the .bash_aliases file and add the line
@@ -29,5 +29,5 @@ Open the .bash_aliases file and add the line
 to use a different name replace cppsetup on the left side of
 the = with whatever you want your command to be.
 
-#Downloading the needed files
+# Downloading the needed files
 ... finish up instructions
