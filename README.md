@@ -37,4 +37,4 @@ All you need to do is initialize a directory with git and clone
 the repo!
 
 First navigate to the repo and use ( git init ). Then enter the 
-following command ( git clone https://github.com/ajhelbig/raylib_setup.git )
+following command ( git clone https://github.com/ajhelbig/cppsetup.git )
