@@ -1,4 +1,4 @@
-# Cppsetup
+# Cppsetup raylib
 A bash script to easily setup raylib projects.
 
 Note: I use () to denote a command. Don't include the
