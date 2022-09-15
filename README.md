@@ -50,7 +50,7 @@ All the files needed to make cppsetup work are in the new directory. You can vie
 using the command ( cd cppsetup && ls )
 
 # Finishing up
-Firstly lets make the shell script cppsetup.sh executable. Do this by navigating
+Lets make the shell script cppsetup.sh executable. Do this by navigating
 into the "cppsetup" directory and typing the following command
 ( chmod +x cppsetup.sh ). The shell script is now executable! This setp is important.
 Move the cppsetup.sh file into the directory you specified in your .bashrc file /path above.
