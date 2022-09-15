@@ -57,3 +57,6 @@ distros using ( mv cppsetup-templates ~/Templates ). Assuming all goes well and 
 the command should be ready to use! Try it by typing ( cppsetup raylib ). The process may take a while
 since the setup process includes fetching the raylib library from github and building it from source.
 
+#  End Notes
+The motivation of this script is to make projects more accessable when storing them on github. I like the 
+idea of being able to clone a project and have it build everything needed automatically using cmake.
