@@ -6,7 +6,10 @@ Note: I use () to denote a command. Don't include the
 Note: raylib will be compiled with opengl 2.1 and in Debug
 mode. This can be changed in the provided templates.
 Note: sublime text is the default editor to open the project. This can also be 
-changed in the provided templates.
+changed by editing the cppsetup.sh file.
+
+# Goal
+The goal of this script is to setup raylib projects that are easily sharable over github.
 
 # Setting it up
 To make the shell script useable in any directory,
@@ -56,7 +59,3 @@ above. Next lets move the cppsetup-templates into the default Templates director
 distros using ( mv cppsetup-templates ~/Templates ). Assuming all goes well and you have rebooted your computer
 the command should be ready to use! Try it by typing ( cppsetup raylib ). The process may take a while
 since the setup process includes fetching the raylib library from github and building it from source.
-
-#  End Notes
-The motivation of this script is to make projects more accessable when storing them on github. I like the 
-idea of being able to clone a project and have it build everything needed automatically using cmake.
