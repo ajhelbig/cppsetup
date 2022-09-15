@@ -1,10 +1,12 @@
 # Cppsetup raylib
-A bash script to easily setup raylib projects.
+A bash script to easily setup raylib projects using git, make and cmake.
 
 Note: I use () to denote a command. Don't include the
 () when typing commands.
 Note: raylib will be compiled with opengl 2.1 and in Debug
 mode. This can be changed in the provided templates.
+Note: sublime text is the default editor to open the project. This can also be 
+changed in the provided templates.
 
 # Setting it up
 To make the shell script useable in any directory,
@@ -46,10 +48,12 @@ using the command ( cd cppsetup && ls )
 
 # Finishing up
 Firstly lets make the shell script cppsetup.sh executable. Do this by navigating
-into the "cppsetup" and typing the following command
+into the "cppsetup" directory and typing the following command
 ( chmod +x cppsetup.sh ). The shell script is now executable! This setp is important.
 Move the cppsetup.sh file into the directory you specified in your .bashrc file /path above.
 This can be done using the command ( mv cppsetup.sh /path ) where /path is the one specified
 above. Next lets move the cppsetup-templates into the default Templates directory found on Ubuntu
-distros using ( mv cppsetup-templates ~/Templates ).
+distros using ( mv cppsetup-templates ~/Templates ). Assuming all goes well and you have rebooted your computer
+the command should be ready to use! Try it by typing ( cppsetup raylib ). The process may take a while
+since the setup process includes fetching the raylib library from github and building it from source.
 
