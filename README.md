@@ -30,11 +30,26 @@ Here we are defining the name of the command.
 Open the .bash_aliases file and add the line
 " alias cppsetup='cppsetup.sh' ". If you would like
 to use a different name replace cppsetup on the left side of
-the = with whatever you want your command to be.
+the = with whatever you want your command to be. FOR THESE CHANGES TO
+TAKE EFFECT YOU MUST RESTART YOUR COMPUTER BEFORE PROCEEDING. If you do not
+restart your computer you will get an error message that says "cppsetup: command not found".
 
 # Downloading the needed files
 All you need to do is initialize a directory with git and clone
 the repo!
 
-First navigate to the repo and use ( git init ). Then enter the 
-following command ( git clone https://github.com/ajhelbig/cppsetup.git )
+First navigate to the directory of your choice and use ( git init ). Then enter the 
+following command ( git clone https://github.com/ajhelbig/cppsetup.git ).
+You will see that a new directory named "cppsetup" has appeared in the directory.
+All the files needed to make cppsetup work are in the new directory. You can view them by
+using the command ( cd cppsetup && ls )
+
+# Finishing up
+Firstly lets make the shell script cppsetup.sh executable. Do this by navigating
+into the "cppsetup" and typing the following command
+( chmod +x cppsetup.sh ). The shell script is now executable! This setp is important.
+Move the cppsetup.sh file into the directory you specified in your .bashrc file /path above.
+This can be done using the command ( mv cppsetup.sh /path ) where /path is the one specified
+above. Next lets move the cppsetup-templates into the default Templates directory found on Ubuntu
+distros using ( mv cppsetup-templates ~/Templates ).
+
