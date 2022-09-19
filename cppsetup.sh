@@ -34,7 +34,7 @@ if [ "$#" -eq 1 ]; then
 
 		cd ../
 
-		subl .
+		#subl .
 
 		./checkout.sh
 
@@ -53,7 +53,7 @@ else
 
 	chmod +x run.sh
 
-	subl .
+	#subl .
 
 	./run.sh
 
