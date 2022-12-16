@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 #check for raylib
 
@@ -13,8 +13,8 @@ if [ "$#" -eq 1 ]; then
 
 		#creating main cmakelist and checkout script
 		cat ~/Templates/cppsetup-templates/raylib/main_cmake_template.txt > CMakeLists.txt
-		cat ~/Templates/cppsetup-templates/raylib/checkout_template.txt > checkout.sh
-		chmod +x checkout.sh
+		cat ~/Templates/cppsetup-templates/raylib/checkout_template.txt > run.sh
+		chmod +x run.sh
 
 		#setting up the directory structure and populating with templated files
 		mkdir build external src
@@ -41,7 +41,7 @@ if [ "$#" -eq 1 ]; then
 
 		subl .
 
-		./checkout.sh
+		./run.sh
 
 	fi
 
