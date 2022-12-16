@@ -34,7 +34,12 @@ if [ "$#" -eq 1 ]; then
 
 		cd ../
 
-		#subl .
+		mkdir include
+
+		touch .gitignore
+		echo "build/" > .gitignore
+
+		subl .
 
 		./checkout.sh
 
